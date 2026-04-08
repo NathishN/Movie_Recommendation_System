@@ -14,40 +14,66 @@ Fuzzy Matching (difflib) to handle user input errors
 
 🚀 Features
 🔍 Search movies even with spelling mistakes
+
 🎯 Personalized recommendations based on movie similarity
+
 ⚡ Fast similarity computation using vectorized operations
+
 🧠 Uses NLP techniques for better recommendations
 
 🛠️ Tech Stack
 Python
+
 Pandas – Data handling
+
 NumPy – Numerical operations
+
 Scikit-learn – ML utilities
+
 TF-IDF Vectorizer – Text processing
+
 Cosine Similarity – Recommendation logic
+
 difflib – Fuzzy string matching
 
 📂 Dataset
+
 The project uses a movie dataset (movies_dataset.csv) containing:
 
 Title
+
 Genres
+
 Keywords
+
 Tagline
+
 Cast
+
 Director
 
 ⚙️ How It Works
 Data Preprocessing
+
 Select relevant features
+
 Handle missing values
+
 Feature Engineering
+
 Combine text features into a single string
+
 Vectorization
+
 Convert text data into numerical vectors using TF-IDF
+
 Similarity Calculation
+
 Compute cosine similarity between all movies
+
 User Input Handling
+
 Match user input with closest movie title
+
 Recommendation
 Return top similar movies
