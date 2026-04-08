@@ -11,11 +11,13 @@ This system analyzes movie metadata and recommends similar movies using:
 TF-IDF Vectorization for text feature extraction
 Cosine Similarity for measuring similarity between movies
 Fuzzy Matching (difflib) to handle user input errors
+
 🚀 Features
 🔍 Search movies even with spelling mistakes
 🎯 Personalized recommendations based on movie similarity
 ⚡ Fast similarity computation using vectorized operations
 🧠 Uses NLP techniques for better recommendations
+
 🛠️ Tech Stack
 Python
 Pandas – Data handling
@@ -24,6 +26,7 @@ Scikit-learn – ML utilities
 TF-IDF Vectorizer – Text processing
 Cosine Similarity – Recommendation logic
 difflib – Fuzzy string matching
+
 📂 Dataset
 The project uses a movie dataset (movies_dataset.csv) containing:
 
@@ -33,6 +36,7 @@ Keywords
 Tagline
 Cast
 Director
+
 ⚙️ How It Works
 Data Preprocessing
 Select relevant features
